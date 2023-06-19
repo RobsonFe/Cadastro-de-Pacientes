@@ -1,0 +1,24 @@
+    {% extends 'usuarios/base.html' %}
+    {% block conteudo %}
+    <h1 style="text-align: center; background:#D3D3D3; margin: 0;">Cadastro de Pacientes</h1>
+    
+    <form action="{% url 'listagem_usuarios' %}" method="post">
+      {% csrf_token %}
+    <div class="container">
+        <br>
+        <br>
+        Nome: <input name="nome" class="form-control-sm"type="text">
+        Idade: <input name="idade" class="form-control-sm" type="number">
+        Profissão: <input name="profissao" class="form-control-sm"type="text>"
+    </div>
+    <div class="container">
+        <br>
+        Nascimento: <input name="nascimento" class="form-control-sm" type="date">
+        Plano de Saude: <input name="plano_saude" class="form-control-sm" type="text">
+        Diagnostico: <input name="diagnostico" class="form-control-sm" type="text">
+    </div>
+
+    <button class="form-control-sm">Enviar</button>
+
+</form>
+{% endblock %}
