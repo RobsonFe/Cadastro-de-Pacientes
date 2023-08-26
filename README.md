@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Bem-vindo(a) ao repositório **FormulárioDeCadastroDjango**, um espaço onde a magia do Python e a versatilidade do Django se unem para criar uma aplicação web incrível. Se você é apaixonado por desenvolvimento web e está curioso(a) sobre como construir um formulário de cadastro de pacientes, você está no lugar certo!
+Bem-vindo(a) ao repositório **Formulário de Cadastro em Python com Django**, um espaço onde a magia do Python e a versatilidade do Django se unem para criar uma aplicação web incrível. Se você é apaixonado por desenvolvimento web e está curioso(a) sobre como construir um formulário de cadastro de pacientes, você está no lugar certo!
 
 ## Sobre o Projeto
 
