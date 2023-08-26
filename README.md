@@ -26,7 +26,15 @@ Ao longo dessa jornada, pude aproveitar a maravilhosa ferramenta que é o Django
 
 ## Imagens do Projeto
 
+- Formulário de Cadastro
+
+Ficha de Cadastro de Pacientes com as informações necessárias para o preenchimento.
+
 ![Formulário de Cadastro](https://live.staticflickr.com/65535/53144029238_e518b1f028_b.jpg)
+
+- Exibição do Banco
+  
+Podemos observar nesta imagem a exibição do banco de dados onde estão armazenadas as informações dos pacientes.
 
 ![Exibição do Banco](https://live.staticflickr.com/65535/53144029278_c52cfaceef_b.jpg)
 
