@@ -38,6 +38,53 @@ Podemos observar nesta imagem a exibição do banco de dados onde estão armazen
 
 ![Exibição do Banco](https://live.staticflickr.com/65535/53144029278_c52cfaceef_b.jpg)
 
+## Linhas de Codigos usadas no Projeto. 
+
+- Rota responsavel para a pagina principal. 
+
+- Foi utilizado um link direcionando para a pagina principal toda vez que clicava no nome "Hospital da Saude.
+
+``` from django.urls import path  ```
+  
+```from app_cadastro import views ```
+
+```
+urlpatterns = [
+    #rota, view responsável, nome de referência. 
+    path('',views.home,name='home'),
+    path('usuarios/',views.usuarios,name='listagem_usuarios')
+]
+```
+
+- Importação dos dados do usuario para ser exibidos em tela. 
+
+``` 
+from django.shortcuts import render
+from .models import Usuario
+
+def home(request):
+    return render(request,'usuarios/home.html')
+
+def usuarios(request):
+    #salvar os dados da tela para o banco de dados
+    novo_usuario = Usuario()
+    novo_usuario.nome = request.POST.get('nome')
+    novo_usuario.idade = request.POST.get('idade')
+    novo_usuario.profissao = request.POST.get('profissao')
+    novo_usuario.nascimento = request.POST.get('nascimento')
+    novo_usuario.plano_saude = request.POST.get('plano_saude')
+    novo_usuario.diagnostico = request.POST.get('diagnostico')
+    novo_usuario.save()
+    
+    #Exibir todos os usuarios já cadastrados em uma pagina
+    usuarios = {
+        'usuarios': Usuario.objects.all()
+    }
+
+    # Retornar os dados para a pagina de usuarios.
+    return render(request,'usuarios/usuarios.html',usuarios)
+```
+
 ## Video do Projeto
 
 [Assista ao vídeo do projeto](https://youtu.be/0b5RaGfEbtI)
