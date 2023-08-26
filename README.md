@@ -1,5 +1,7 @@
 # Formulário de Cadastro de Pacientes com Django
 
+![Banner do Projeto](https://live.staticflickr.com/65535/53143951355_a89a8b6f00_b.jpg)
+
 ## Introdução
 
 Bem-vindo(a) ao repositório **FormulárioDeCadastroDjango**, um espaço onde a magia do Python e a versatilidade do Django se unem para criar uma aplicação web incrível. Se você é apaixonado por desenvolvimento web e está curioso(a) sobre como construir um formulário de cadastro de pacientes, você está no lugar certo!
@@ -25,6 +27,12 @@ Ao longo dessa jornada, pude aproveitar a maravilhosa ferramenta que é o Django
 ## Video do Projeto
 
 [Assista ao vídeo do projeto](https://youtu.be/0b5RaGfEbtI)
+
+## Imagens do Projeto
+
+![Formulário de Cadastro](https://www.flickr.com/photos/199029380@N04/53144029238/in/dateposted/)
+
+![Exibição do Banco](https://www.flickr.com/photos/199029380@N04/53144029278/in/dateposted/)
 
 ## Próximos Passos
 
