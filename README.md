@@ -21,6 +21,10 @@ Ao longo dessa jornada, pude aproveitar a maravilhosa ferramenta que é o Django
 - Formulário de cadastro de pacientes.
 - Armazenamento eficiente dos registros usando SQLite.
 - Utilização de sintaxe amigável do Django para criação de rotas.
+  
+## Video do Projeto
+
+<iframe width="560" height="315" src="https://youtu.be/0b5RaGfEbtI" frameborder="0" allowfullscreen></iframe>
 
 ## Próximos Passos
 
