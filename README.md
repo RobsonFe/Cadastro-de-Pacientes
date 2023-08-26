@@ -42,7 +42,7 @@ Podemos observar nesta imagem a exibição do banco de dados onde estão armazen
 
 - Rota responsavel para a pagina principal. 
 
-- Foi utilizado um link direcionando para a pagina principal toda vez que clicava no nome "Hospital da Saude.
+- Foi utilizado um link direcionando para a pagina principal toda vez que clicava no nome "Hospital da Saude".
 
 ``` from django.urls import path  ```
   
@@ -54,17 +54,34 @@ urlpatterns = [
     path('',views.home,name='home'),
     path('usuarios/',views.usuarios,name='listagem_usuarios')
 ]
+
 ```
+
+- Link fixo na home sem alterar a estrutura da pagina, deixando a NavBar fixa na tela.
+```
+<body>
+  <nav style="background-color: rgb(13, 146, 102) !important;" class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1"><a style="text-decoration: none;color: black;" href="{% url 'home' %}">Hospital
+          da Saúde</a></span>
+    </div>
+  </nav>
+  {% block conteudo %}
+  {% endblock %} 
+  ```
+
 
 - Importação dos dados do usuario para ser exibidos em tela. 
 
-``` 
-from django.shortcuts import render
-from .models import Usuario
+```from django.shortcuts import render```
 
-def home(request):
-    return render(request,'usuarios/home.html')
+```from .models import Usuario```
 
+``` def home(request): ```
+
+``` return render(request,'usuarios/home.html') ```
+
+```
 def usuarios(request):
     #salvar os dados da tela para o banco de dados
     novo_usuario = Usuario()
@@ -74,8 +91,8 @@ def usuarios(request):
     novo_usuario.nascimento = request.POST.get('nascimento')
     novo_usuario.plano_saude = request.POST.get('plano_saude')
     novo_usuario.diagnostico = request.POST.get('diagnostico')
-    novo_usuario.save()
-    
+    novo_usuario.save() ```
+    ```
     #Exibir todos os usuarios já cadastrados em uma pagina
     usuarios = {
         'usuarios': Usuario.objects.all()
