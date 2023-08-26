@@ -24,7 +24,7 @@ Ao longo dessa jornada, pude aproveitar a maravilhosa ferramenta que é o Django
   
 ## Video do Projeto
 
-<iframe width="560" height="315" src="https://youtu.be/0b5RaGfEbtI" frameborder="0" allowfullscreen></iframe>
+[Assista ao vídeo do projeto](https://youtu.be/0b5RaGfEbtI)
 
 ## Próximos Passos
 
