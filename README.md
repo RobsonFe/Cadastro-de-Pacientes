@@ -114,10 +114,6 @@ Este é apenas o começo. Meu desejo é expandir este projeto e desenvolver uma 
 
 Sinta-se à vontade para explorar os arquivos e pastas deste repositório para descobrir como criei o formulário de cadastro de pacientes usando Django. Você pode examinar o código, entender a estrutura e até mesmo testar a aplicação por conta própria.
 
-## Contribua
-
-Se você tem ideias para melhorias ou deseja compartilhar sua própria experiência com o desenvolvimento Django, sinta-se à vontade para contribuir! Basta fazer um fork deste repositório, adicionar suas melhorias e enviar um pull request.
-
 ## Contato
 
 Gostaria de trocar ideias, discutir estratégias de desenvolvimento ou compartilhar seus projetos? Vamos nos conectar [aqui](https://www.linkedin.com/in/robson-ferreira-508247134/)!
