@@ -108,7 +108,7 @@ def usuarios(request):
 
 ## Próximos Passos
 
-Este é apenas o começo. Meu desejo é expandir este projeto e desenvolver uma aplicação CRUD completa com Django. Mal posso esperar para compartilhar mais avanços com você!
+Este é apenas o começo. Meu desejo é expandir este projeto e desenvolver uma aplicação CRUD completa com Django.
 
 ## Como Usar Este Repositório
 
@@ -117,5 +117,3 @@ Sinta-se à vontade para explorar os arquivos e pastas deste repositório para d
 ## Contato
 
 Gostaria de trocar ideias, discutir estratégias de desenvolvimento ou compartilhar seus projetos? Vamos nos conectar [aqui](https://www.linkedin.com/in/robson-ferreira-508247134/)!
-
-Espero que este repositório inspire você a explorar o emocionante mundo do desenvolvimento web com Django e Python. Vamos criar algo incrível juntos!
